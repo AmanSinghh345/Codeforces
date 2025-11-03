@@ -17,7 +17,7 @@ typedef map<int,int> mii;
 
 void answertoProb()
 {
-    int m,n;
+    long long m,n;
     cin>>m>>n;
     
         cout<<(m*n)/2<<endl;

@@ -98,29 +98,37 @@ ostream& operator<<(ostream &out, const map<T, V> &c) {
 }
 
 void solve() {
-    // Write your solution here
-    int n;
-    cin>>n;
-    vl a(n);
-    cin>>a;
-    sort(a.begin(),a.end());
-    vl ans;
-    int l=0,r=1,score=a[0];
-    while(r<n){
-        while(r<n and score>=a[r]){
-        score+=a[r];
-        r++;
-        }
-        ans.push_back(r);
-        l++;
-        score+=a[l];
-        r++;
+    ll n;
+    cin >> n;
+    vector<pair<ll,ll>> a(n+1);
+    for (int i = 1; i <= n; i++) {
+        cin >> a[i].f;
+        a[i].s = i;
+    }
 
+    sort(a.begin() + 1, a.end());
+
+    vector<ll> sum(n+1, 0);
+    vector<int> nxt(n+1, 0), ans(n+1, 0);
+    nxt[0] = sum[0] = 0;
+
+    for (int i = 1; i <= n; i++) {
+        if (nxt[i-1] >= i) {
+            nxt[i] = nxt[i-1];
+            sum[i] = sum[i-1];
+        } else {
+            sum[i] = sum[i-1] + a[i].f;
+            nxt[i] = i;
+            while (nxt[i] + 1 <= n && sum[i] >= a[nxt[i] + 1].f) {
+                nxt[i]++;
+                sum[i] += a[nxt[i]].f;
+            }
+        }
+        ans[a[i].s] = nxt[i];
     }
-    for(int i=0;i<n;i++){
-        cout<<ans[i]<<" ";
-    }
-    cout<<"\n";
+
+    for (int i = 1; i <= n; i++) cout << ans[i] - 1 << " ";
+    cout << endl;
 }
 
 int32_t main() {
