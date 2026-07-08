@@ -1,0 +1,22 @@
+<h2><a href="https://codeforces.com/contest/2091/problem/B" target="_blank" rel="noopener noreferrer">2091B — Team Training</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2091B](https://codeforces.com/contest/2091/problem/B) |
+
+## Topics
+`dp` `greedy` `sortings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Team Training</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>At the IT Campus "NEIMARK", there are training sessions in competitive programming — both individual and team-based!</p><p>For the next team training session, $$$n$$$ students will attend, and the skill of the $$$i$$$-th student is given by a positive integer $$$a_i$$$.</p><p>The coach considers a team strong if its <span class="tex-font-style-it">strength</span> is at least $$$x$$$. The <span class="tex-font-style-it">strength</span> of a team is calculated as the number of team members multiplied by the minimum skill among the team members.</p><p>For example, if a team consists of $$$4$$$ members with skills $$$[5, 3, 6, 8]$$$, then the team's <span class="tex-font-style-it">strength</span> is $$$4 \cdot min([5, 3, 6, 8]) = 12$$$.</p><p>Output the maximum possible number of strong teams, given that each team must have at least one participant and every participant must belong to exactly one team.</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \leq t \leq 10^4$$$). The description of the test cases follows.</p><p>The first line of each test case contains two integers $$$n$$$ and $$$x$$$ ($$$1 \leq n \leq 2 \cdot 10^5$$$, $$$1 \leq x \leq 10^9$$$) — the number of students in training and the minimum <span class="tex-font-style-it">strength</span> of a team to be considered strong.</p><p>The second line of each test case contains $$$n$$$ integers $$$a_i$$$ ($$$1 \leq a_i \leq 10^9$$$) — the skill of each student.</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases does not exceed $$$2 \cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output the maximum possible number of teams with <span class="tex-font-style-it">strength</span> at least $$$x$$$.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id006017038227271694" id="id0049800765324641183" class="input-output-copier">Copy</div></div><pre id="id006017038227271694"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">6 4</div><div class="test-example-line test-example-line-odd test-example-line-1">4 5 3 3 2 6</div><div class="test-example-line test-example-line-even test-example-line-2">4 10</div><div class="test-example-line test-example-line-even test-example-line-2">4 2 1 3</div><div class="test-example-line test-example-line-odd test-example-line-3">5 3</div><div class="test-example-line test-example-line-odd test-example-line-3">5 3 2 3 2</div><div class="test-example-line test-example-line-even test-example-line-4">3 6</div><div class="test-example-line test-example-line-even test-example-line-4">9 1 7</div><div class="test-example-line test-example-line-odd test-example-line-5">6 10</div><div class="test-example-line test-example-line-odd test-example-line-5">6 1 3 6 3 2</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id003932916128524202" id="id008814412810038713" class="input-output-copier">Copy</div></div><pre id="id003932916128524202">4
+0
+4
+2
+1
+</pre></div></div></div>
