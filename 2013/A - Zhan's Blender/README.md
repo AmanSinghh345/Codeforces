@@ -1,0 +1,22 @@
+<h2><a href="https://codeforces.com/contest/2013/problem/A" target="_blank" rel="noopener noreferrer">2013A — Zhan's Blender</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2013A](https://codeforces.com/contest/2013/problem/A) |
+
+## Topics
+`constructive algorithms` `math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Zhan's Blender</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Today, a club fair was held at "NSPhM". In order to advertise his pastry club, Zhan decided to demonstrate the power of his blender.</p><p>To demonstrate the power of his blender, Zhan has $$$n$$$ fruits.</p><p>The blender can mix up to $$$x$$$ fruits per second.</p><p>In each second, Zhan can put up to $$$y$$$ fruits into the blender. After that, the blender will blend $$$\min(x, c)$$$ fruits, where $$$c$$$ is the number of fruits inside the blender. After blending, blended fruits are removed from the blender.</p><p>Help Zhan determine the minimum amount of time required for Zhan to blend all fruits.</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 1000$$$). The description of the test cases follows.</p><p>The first line of each test case contains one integer $$$n$$$ ($$$0 \le n \le 10^9$$$) — the number of fruits Zhan has.</p><p>The second line of each test case contains two integers $$$x$$$ and $$$y$$$ ($$$1 \le x, y \le 10^9$$$) — the number of fruits the blender can blend per second and the number of fruits Zhan can put into the blender per second.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each testcase, output a single integer — the minimum number of seconds to blend all fruits.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id00026587628516659634" id="id009116707235687073" class="input-output-copier">Copy</div></div><pre id="id00026587628516659634"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">5</div><div class="test-example-line test-example-line-odd test-example-line-1">3 4</div><div class="test-example-line test-example-line-even test-example-line-2">3</div><div class="test-example-line test-example-line-even test-example-line-2">1 2</div><div class="test-example-line test-example-line-odd test-example-line-3">6</div><div class="test-example-line test-example-line-odd test-example-line-3">4 3</div><div class="test-example-line test-example-line-even test-example-line-4">100</div><div class="test-example-line test-example-line-even test-example-line-4">4 3</div><div class="test-example-line test-example-line-odd test-example-line-5">9</div><div class="test-example-line test-example-line-odd test-example-line-5">3 3</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009369108689282106" id="id008244198283258279" class="input-output-copier">Copy</div></div><pre id="id009369108689282106">2
+3
+2
+34
+3
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first example, you can first put $$$2$$$ fruits in the blender. After that, the blender will mix these $$$2$$$ fruits, and in the end, there will be $$$0$$$ fruits left in the blender. Then you can put $$$3$$$ fruits into the blender, after which the blender will mix these $$$3$$$ fruits.</p><p>In the second example, you can put $$$1$$$ fruit into the blender $$$3$$$ times.</p><p>In the third example, you can first put $$$3$$$ fruits into the blender, then add another $$$3$$$ fruits.</p></div>
