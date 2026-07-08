@@ -1,17 +1,124 @@
-<h2><a href="https://codeforces.com/contest/2167/problem/A" target="_blank" rel="noopener noreferrer">2167A — Square?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | 800 |
-| **Language** | C++20 (GCC 13-64) |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 2167A](https://codeforces.com/contest/2167/problem/A) |
-
-## Topics
-`math` `sortings`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">A. Square?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given $$$4$$$ sticks of lengths $$$a$$$, $$$b$$$, $$$c$$$, and $$$d$$$. You can not break or bend them.</p><p>Determine whether it is possible to form a square$$$^{\text{∗}}$$$ using the given sticks.</p><div class="statement-footnote"><p>$$$^{\text{∗}}$$$A <span class="tex-font-style-it">square</span> is defined as a polygon consisting of $$$4$$$ vertices, of which all sides have equal length and all inner angles are equal. No two edges of the polygon may intersect each other.</p></div></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$t$$$ ($$$1 \le t \le 10^4$$$) — the number of test cases.</p><p>The only line of each test case contains four integers $$$a$$$, $$$b$$$, $$$c$$$, and $$$d$$$ ($$$1 \le a, b, c, d \le 10$$$) — the lengths of the sticks.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print "<span class="tex-font-style-tt">YES</span>" if it is possible to form a square using the given sticks, and "<span class="tex-font-style-tt">NO</span>" otherwise.</p><p>You may print each letter in any case (uppercase or lowercase). For example, the strings "<span class="tex-font-style-tt">yEs</span>", "<span class="tex-font-style-tt">yes</span>", "<span class="tex-font-style-tt">Yes</span>", and "<span class="tex-font-style-tt">YES</span>" will all be recognized as a positive answer.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id00462331613649584" id="id008470639445011751" class="input-output-copier">Copy</div></div><pre id="id00462331613649584"><div class="test-example-line test-example-line-even test-example-line-0">7</div><div class="test-example-line test-example-line-odd test-example-line-1">1 2 3 4</div><div class="test-example-line test-example-line-even test-example-line-2">1 1 1 1</div><div class="test-example-line test-example-line-odd test-example-line-3">2 2 2 2</div><div class="test-example-line test-example-line-even test-example-line-4">1 2 1 2</div><div class="test-example-line test-example-line-odd test-example-line-5">1 1 5 5</div><div class="test-example-line test-example-line-even test-example-line-6">5 5 5 5</div><div class="test-example-line test-example-line-odd test-example-line-7">4 10 5 9</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id005790037842481595" id="id001318294923962794" class="input-output-copier">Copy</div></div><pre id="id005790037842481595"><div class="test-example-line test-example-line-odd test-example-line-1">NO</div><div class="test-example-line test-example-line-even test-example-line-2">YES</div><div class="test-example-line test-example-line-odd test-example-line-3">YES</div><div class="test-example-line test-example-line-even test-example-line-4">NO</div><div class="test-example-line test-example-line-odd test-example-line-5">NO</div><div class="test-example-line test-example-line-even test-example-line-6">YES</div><div class="test-example-line test-example-line-odd test-example-line-7">NO</div></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, we can prove that we can't make a square.</p><p>In the second, third, and sixth test cases, we can make a square like this:</p><center> <table class="tex-tabular bordertable"><tbody><tr><td class="tex-tabular-text-align-center"><img class="tex-graphics" src="https://espresso.codeforces.com/e51fcf1a3ba1663730b9f7ce5a8427c0796be6ca.png" style="max-width: 100.0%;max-height: 100.0%;" width="756px"></td></tr></tbody></table> </center></div>
+#include <bits/stdc++.h>
+using namespace std;
+ 
+// Speed
+#define fastio() ios_base::sync_with_stdio(false); cin.tie(nullptr); cout.tie(nullptr);
+ 
+// Macros
+#define IOtext freopen("input.txt", "r", stdin); freopen("output.txt", "w", stdout);
+#define PI (3.141592653589)
+#define M 1000000007
+#define pb push_back
+#define f first
+#define s second
+#define set_bits(x) __builtin_popcountll(x)
+#define zero_bits(x) __builtin_ctzll(x)
+#define sz(s) (int)(s.size())
+#define digCnt(n) ((int)log10(n) + 1)
+#define all(x) x.begin(), x.end()
+#define rall(x) x.rbegin(), x.rend()
+#define MAX(x) *max_element(all(x))
+#define MIN(x) *min_element(all(x))
+#define SUM(x) accumulate(all(x), 0LL)
+#define B break
+#define C continue
+#define py cout << "YES" << endl
+#define pn cout << "NO" << endl
+#define pm cout << "-1" << endl
+#define ps(x,y) fixed << setprecision(y) << x
+#define endl '
+'
+ 
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double lld;
+typedef pair<int, int> pi;
+typedef pair<ll, ll> pl;
+typedef vector<int> vi;
+typedef vector<double> vd;
+typedef vector<long double> vlld;
+typedef vector<ll> vl;
+typedef vector<pi> vpi;
+typedef vector<pl> vpl;
+typedef vector<vi> vvi;
+typedef vector<vl> vvl;
+typedef map<int, int> mii;
+typedef map<ll, ll> mll;
+typedef set<int> seti;
+typedef set<ll> setll;
+typedef priority_queue<ll> pqll;
+typedef priority_queue<ll, vl, greater<ll>> pqllmn;
+ 
+#ifndef ONLINE_JUDGE
+#define debug(x) cerr << #x << " "; _print(x); cerr << endl;
+#else
+#define debug(x)
+#endif
+ 
+void _print(ll t) { cerr << t; }
+void _print(int t) { cerr << t; }
+void _print(string t) { cerr << t; }
+void _print(char t) { cerr << t; }
+void _print(lld t) { cerr << t; }
+void _print(double t) { cerr << t; }
+void _print(ull t) { cerr << t; }
+ 
+template <class T, class V> void _print(pair<T, V> p);
+template <class T> void _print(vector<T> v);
+template <class T> void _print(set<T> v);
+template <class T, class V> void _print(map<T, V> v);
+template <class T> void _print(multiset<T> v);
+template <class T, class V> void _print(pair<T, V> p) {
+    cerr << "{"; _print(p.first); cerr << ","; _print(p.second); cerr << "}";
+}
+template <class T> void _print(vector<T> v) {
+    cerr << "[ "; for (T i : v) { _print(i); cerr << " "; } cerr << "]";
+}
+template <class T> void _print(set<T> v) {
+    cerr << "[ "; for (T i : v) { _print(i); cerr << " "; } cerr << "]";
+}
+template <class T> void _print(multiset<T> v) {
+    cerr << "[ "; for (T i : v) { _print(i); cerr << " "; } cerr << "]";
+}
+template <class T, class V> void _print(map<T, V> v) {
+    cerr << "[ "; for (auto i : v) { _print(i); cerr << " "; } cerr << "]";
+}
+ 
+// Operator overloads
+template<typename T>
+istream& operator>>(istream &in, vector<T> &v) {
+    for (auto &it : v) cin >> it; return in;
+}
+template<typename T>
+ostream& operator<<(ostream &out, const vector<T> &v) {
+    for (auto &it : v) out << it << " "; return out;
+}
+template<typename T, typename V>
+ostream& operator<<(ostream &out, const map<T, V> &c) {
+    for (auto &it : c) out << it.first << " " << it.second << endl; return out;
+}
+ 
+void solve() {
+    // Write your solution here
+    int a,b,c,d;
+    cin>>a>>b>>c>>d;
+    if(a==b and b==c and c==d)
+    {
+        py;
+    }
+    else pn;
+}
+ 
+int32_t main() {
+    fastio();
+    #ifndef ONLINE_JUDGE
+        freopen("Error.txt", "w", stderr);
+    #endif
+    
+    int t = 1;
+    cin >> t;
+    while(t--) {
+        solve();
+    }
+    return 0;
+}
