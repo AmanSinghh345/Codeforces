@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 256 | 28 |
+| 257 | 28 |
 
 ---
 
@@ -19,7 +19,7 @@
 - [brute force](#brute-force) (54)
 - [combinatorics](#combinatorics) (9)
 - [constructive algorithms](#constructive-algorithms) (43)
-- [data structures](#data-structures) (13)
+- [data structures](#data-structures) (14)
 - [dfs and similar](#dfs-and-similar) (9)
 - [dp](#dp) (16)
 - [dsu](#dsu) (3)
@@ -29,9 +29,9 @@
 - [graphs](#graphs) (6)
 - [greedy](#greedy) (102)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (72)
+- [implementation](#implementation) (73)
 - [interactive](#interactive) (6)
-- [math](#math) (108)
+- [math](#math) (109)
 - [number theory](#number-theory) (25)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (34)
@@ -232,6 +232,7 @@
 |---|---------|------------|----------|
 | 4C | [Registration System](https://codeforces.com/contest/4/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/4/C%20-%20Registration%20System/solution.cpp) |
 | 295A | [Greg and Array](https://codeforces.com/contest/295/problem/A) | 1400 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/295/A%20-%20Greg%20and%20Array/solution.cpp) |
+| 808B | [Average Sleep Time](https://codeforces.com/contest/808/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/808/B%20-%20Average%20Sleep%20Time/solution.cpp) |
 | 1349A | [Orac and LCM](https://codeforces.com/contest/1349/problem/A) | 1600 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1349/A%20-%20Orac%20and%20LCM/solution.cpp) |
 | 1380A | [Three Indices](https://codeforces.com/contest/1380/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1380/A%20-%20Three%20Indices/solution.cpp) |
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.cpp) |
@@ -473,6 +474,7 @@
 | 750A | [New Year and Hurry](https://codeforces.com/contest/750/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/750/A%20-%20New%20Year%20and%20Hurry/solution.cpp) |
 | 762B | [USB vs. PS/2](https://codeforces.com/contest/762/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/762/B%20-%20USB%20vs.%20PS%2F2/solution.cpp) |
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.cpp) |
+| 808B | [Average Sleep Time](https://codeforces.com/contest/808/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/808/B%20-%20Average%20Sleep%20Time/solution.cpp) |
 | 876B | [Divisiblity of Differences](https://codeforces.com/contest/876/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/876/B%20-%20Divisiblity%20of%20Differences/solution.cpp) |
 | 977A | [Wrong Subtraction](https://codeforces.com/contest/977/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/977/A%20-%20Wrong%20Subtraction/solution.cpp) |
 | 1155A | [Reverse a Substring](https://codeforces.com/contest/1155/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1155/A%20-%20Reverse%20a%20Substring/solution.cpp) |
@@ -546,6 +548,7 @@
 | 617A | [Elephant](https://codeforces.com/contest/617/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/617/A%20-%20Elephant/solution.cpp) |
 | 630C | [Lucky Numbers](https://codeforces.com/contest/630/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/630/C%20-%20Lucky%20Numbers/solution.cpp) |
 | 750A | [New Year and Hurry](https://codeforces.com/contest/750/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/750/A%20-%20New%20Year%20and%20Hurry/solution.cpp) |
+| 808B | [Average Sleep Time](https://codeforces.com/contest/808/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/808/B%20-%20Average%20Sleep%20Time/solution.cpp) |
 | 844B | [Rectangles](https://codeforces.com/contest/844/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/844/B%20-%20Rectangles/solution.cpp) |
 | 869C | [The Intriguing Obsession](https://codeforces.com/contest/869/problem/C) | 1800 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/869/C%20-%20The%20Intriguing%20Obsession/solution.cpp) |
 | 876B | [Divisiblity of Differences](https://codeforces.com/contest/876/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/876/B%20-%20Divisiblity%20of%20Differences/solution.cpp) |
