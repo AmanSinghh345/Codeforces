@@ -1,0 +1,21 @@
+<h2><a href="https://codeforces.com/contest/1675/problem/E" target="_blank" rel="noopener noreferrer">1675E — Replace With the Previous, Minimize</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1500 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1675E](https://codeforces.com/contest/1675/problem/E) |
+
+## Topics
+`dsu` `greedy` `strings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">E. Replace With the Previous, Minimize</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given a string $$$s$$$ of lowercase Latin letters. </p><p>The following operation can be used: </p><ul> <li> select one character (from '<span class="tex-font-style-tt">a</span>' to '<span class="tex-font-style-tt">z</span>') that occurs at least once in the string. And replace all such characters in the string with the previous one in alphabetical order on the loop. For example, replace all '<span class="tex-font-style-tt">c</span>' with '<span class="tex-font-style-tt">b</span>' or replace all '<span class="tex-font-style-tt">a</span>' with '<span class="tex-font-style-tt">z</span>'. </li></ul><p>And you are given the integer $$$k$$$ — the maximum number of operations that can be performed. Find the minimum lexicographically possible string that can be obtained by performing no more than $$$k$$$ operations.</p><p>The string $$$a=a_1a_2 \dots a_n$$$ is lexicographically smaller than the string $$$b = b_1b_2 \dots b_n$$$ if there exists an index $$$k$$$ ($$$1 \le k \le n$$$) such that $$$a_1=b_1$$$, $$$a_2=b_2$$$, ..., $$$a_{k-1}=b_{k-1}$$$, but $$$a_k  \lt  b_k$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$t$$$ ($$$1 \le t \le 10^4$$$) —the number of test cases in the test.</p><p>This is followed by descriptions of the test cases.</p><p>The first line of each test case contains two integers $$$n$$$ and $$$k$$$ ($$$1 \le n \le 2 \cdot 10^5$$$, $$$1 \le k \le 10^9$$$) — the size of the string $$$s$$$ and the maximum number of operations that can be performed on the string $$$s$$$.</p><p>The second line of each test case contains a string $$$s$$$ of length $$$n$$$ consisting of lowercase Latin letters. </p><p>It is guaranteed that the sum $$$n$$$ over all test cases does not exceed $$$2 \cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output the lexicographically minimal string that can be obtained from the string $$$s$$$ by performing <span class="tex-font-style-bf">no more</span> than $$$k$$$ operations.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id001328658787505259" id="id009141251313572639" class="input-output-copier">Copy</div></div><pre id="id001328658787505259"><div class="test-example-line test-example-line-even test-example-line-0">4</div><div class="test-example-line test-example-line-odd test-example-line-1">3 2</div><div class="test-example-line test-example-line-odd test-example-line-1">cba</div><div class="test-example-line test-example-line-even test-example-line-2">4 5</div><div class="test-example-line test-example-line-even test-example-line-2">fgde</div><div class="test-example-line test-example-line-odd test-example-line-3">7 5</div><div class="test-example-line test-example-line-odd test-example-line-3">gndcafb</div><div class="test-example-line test-example-line-even test-example-line-4">4 19</div><div class="test-example-line test-example-line-even test-example-line-4">ekyv</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id007110842200687709" id="id0025086636101809157" class="input-output-copier">Copy</div></div><pre id="id007110842200687709">aaa
+agaa
+bnbbabb
+aapp
+</pre></div></div></div>
