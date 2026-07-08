@@ -36,45 +36,20 @@ void solve() {
     string s;
     cin>>s;
     int n=s.size();
-    char prev=s[0];
- 
-    for(int i=1;i<n;){
-        if(prev!=s[i]){
-            prev=s[i];
-            i++;
-            continue;
-        }
-        else {
-            if(i+1<n && s[i]==s[i+1]){
-                char nw=s[i]+1;
-                if(nw>'z') nw='a';
-                s[i]=nw;
-                prev=s[i+1];
-                i+=2;
-                continue;
-            }
-            else if(i+1<n && s[i]!=s[i+1]){
-                char nw=max(s[i],s[i+1])+1;
-                if(nw>'z') nw='a';
-                if(nw=='a' && (s[i]=='a' || s[i+1]=='a')) nw='b';
-               
-                s[i]=nw;
-                prev=s[i+1];
-                i+=2;
-                continue;
-            }
-            else {
-                i++;
+    for(int i=1;i<n;i++){
+        if(s[i-1]==s[i]){
+            for(char c='a';c<='z';c++){
+                if(c!=s[i] && (i+1==n || c!=s[i+1]))
+                {
+                    s[i]=c;
+                    break;
+                }
             }
         }
     }
-    if(n>1 && s[n-2]==s[n-1]){
-        char nw=s[n-1]+1;
-        if(nw>'z') nw='a';
-        s[n-1]=nw;
-    }
-    cout<<s<<endl;
-    return ;
+    cout<<s<<"
+";
+    return;
 }
  
 int main() {
