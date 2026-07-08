@@ -1,22 +1,162 @@
-<h2><a href="https://codeforces.com/contest/1673/problem/B" target="_blank" rel="noopener noreferrer">1673B — A Perfectly Balanced String?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | 1100 |
-| **Language** | C++20 (GCC 13-64) |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 1673B](https://codeforces.com/contest/1673/problem/B) |
-
-## Topics
-`brute force` `greedy` `strings`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">B. A Perfectly Balanced String?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Let's call a string $$$s$$$ perfectly balanced if for all possible triplets $$$(t,u,v)$$$ such that $$$t$$$ is a non-empty substring of $$$s$$$ and $$$u$$$ and $$$v$$$ are characters present in $$$s$$$, the difference between the frequencies of $$$u$$$ and $$$v$$$ in $$$t$$$ is not more than $$$1$$$.</p><p>For example, the strings "<span class="tex-font-style-tt">aba</span>" and "<span class="tex-font-style-tt">abc</span>" are perfectly balanced but "<span class="tex-font-style-tt">abb</span>" is not because for the triplet ("<span class="tex-font-style-tt">bb</span>",'<span class="tex-font-style-tt">a</span>','<span class="tex-font-style-tt">b</span>'), the condition is not satisfied.</p><p>You are given a string $$$s$$$ consisting of lowercase English letters only. Your task is to determine whether $$$s$$$ is perfectly balanced or not.</p><p>A string $$$b$$$ is called a substring of another string $$$a$$$ if $$$b$$$ can be obtained by deleting some characters (possibly $$$0$$$) from the start and some characters (possibly $$$0$$$) from the end of $$$a$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of input contains a single integer $$$t$$$ ($$$1\leq t\leq 2\cdot 10^4$$$) denoting the number of testcases.</p><p>Each of the next $$$t$$$ lines contain a single string $$$s$$$ ($$$1\leq |s|\leq 2\cdot 10^5$$$), consisting of lowercase English letters.</p><p>It is guaranteed that the sum of $$$|s|$$$ over all testcases does not exceed $$$2\cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print "<span class="tex-font-style-tt">YES</span>" if $$$s$$$ is a perfectly balanced string, and "<span class="tex-font-style-tt">NO</span>" otherwise.</p><p>You may print each letter in any case (for example, <span class="tex-font-style-tt">"YES"</span>, <span class="tex-font-style-tt">"Yes"</span>, <span class="tex-font-style-tt">"yes"</span>, <span class="tex-font-style-tt">"yEs"</span> will all be recognized as positive answer).</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id00010491269060350028" id="id006095359939718208" class="input-output-copier">Copy</div></div><pre id="id00010491269060350028"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">aba</div><div class="test-example-line test-example-line-even test-example-line-2">abb</div><div class="test-example-line test-example-line-odd test-example-line-3">abc</div><div class="test-example-line test-example-line-even test-example-line-4">aaaaa</div><div class="test-example-line test-example-line-odd test-example-line-5">abcba</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0017388784485298392" id="id00017660828411436236" class="input-output-copier">Copy</div></div><pre id="id0017388784485298392">YES
-NO
-YES
-YES
-NO
-</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>Let $$$f_t(c)$$$ represent the frequency of character $$$c$$$ in string $$$t$$$.</p><p>For the first testcase we have </p><table class="tex-tabular bordertable"><tbody><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top tex-tabular-border-bottom">$$$t$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top tex-tabular-border-bottom">$$$f_t(a)$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top tex-tabular-border-bottom">$$$f_t(b)$$$</td></tr><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top">$$$a$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top">$$$1$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top">$$$0$$$</td></tr><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$ab$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$1$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$1$$$</td></tr><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$aba$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$2$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$1$$$</td></tr><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$b$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$0$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$1$$$</td></tr><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-bottom">$$$ba$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-bottom">$$$1$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-bottom">$$$1$$$</td></tr></tbody></table> It can be seen that for any substring $$$t$$$ of $$$s$$$, the difference between $$$f_t(a)$$$ and $$$f_t(b)$$$ is not more than $$$1$$$. Hence the string $$$s$$$ is perfectly balanced.<p></p><p>For the second testcase we have </p><table class="tex-tabular bordertable"><tbody><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top tex-tabular-border-bottom">$$$t$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top tex-tabular-border-bottom">$$$f_t(a)$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top tex-tabular-border-bottom">$$$f_t(b)$$$</td></tr><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top">$$$a$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top">$$$1$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top">$$$0$$$</td></tr><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$ab$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$1$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$1$$$</td></tr><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$abb$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$1$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$2$$$</td></tr><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$b$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$0$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$1$$$</td></tr><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-bottom">$$$bb$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-bottom">$$$0$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-bottom">$$$2$$$</td></tr></tbody></table> It can be seen that for the substring $$$t=bb$$$, the difference between $$$f_t(a)$$$ and $$$f_t(b)$$$ is $$$2$$$ which is greater than $$$1$$$. Hence the string $$$s$$$ is not perfectly balanced.<p></p><p>For the third testcase we have </p><table class="tex-tabular bordertable"><tbody><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top tex-tabular-border-bottom">$$$t$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top tex-tabular-border-bottom">$$$f_t(a)$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top tex-tabular-border-bottom">$$$f_t(b)$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top tex-tabular-border-bottom">$$$f_t(c)$$$</td></tr><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top">$$$a$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top">$$$1$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top">$$$0$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-top">$$$0$$$</td></tr><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$ab$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$1$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$1$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$0$$$</td></tr><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$abc$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$1$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$1$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$1$$$</td></tr><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$b$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$0$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$1$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$0$$$</td></tr><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$bc$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$0$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$1$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right">$$$1$$$</td></tr><tr><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-bottom">$$$c$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-bottom">$$$0$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-bottom">$$$0$$$</td><td class="tex-tabular-border-left tex-tabular-text-align-center tex-tabular-border-right tex-tabular-border-bottom">$$$1$$$</td></tr></tbody></table><p></p><p>It can be seen that for any substring $$$t$$$ of $$$s$$$ and any two characters $$$u,v\in\{a,b,c\}$$$, the difference between $$$f_t(u)$$$ and $$$f_t(v)$$$ is not more than $$$1$$$. Hence the string $$$s$$$ is perfectly balanced.</p></div>
+#include <bits/stdc++.h>
+using namespace std;
+ 
+// Speed
+#define fastio() ios_base::sync_with_stdio(false); cin.tie(nullptr); cout.tie(nullptr);
+ 
+// Macros
+#define IOtext freopen("input.txt", "r", stdin); freopen("output.txt", "w", stdout);
+#define PI (3.141592653589)
+#define M 1000000007
+#define pb push_back
+#define f first
+#define s second
+#define set_bits(x) __builtin_popcountll(x)
+#define zero_bits(x) __builtin_ctzll(x)
+#define sz(s) (int)(s.size())
+#define digCnt(n) ((int)log10(n) + 1)
+#define all(x) x.begin(), x.end()
+#define rall(x) x.rbegin(), x.rend()
+#define MAX(x) *max_element(all(x))
+#define MIN(x) *min_element(all(x))
+#define SUM(x) accumulate(all(x), 0LL)
+#define B break
+#define C continue
+#define py cout << "YES" << endl
+#define pn cout << "NO" << endl
+#define pm cout << "-1" << endl
+#define ps(x,y) fixed << setprecision(y) << x
+#define endl '
+'
+ 
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double lld;
+typedef pair<int, int> pi;
+typedef pair<ll, ll> pl;
+typedef vector<int> vi;
+typedef vector<double> vd;
+typedef vector<long double> vlld;
+typedef vector<ll> vl;
+typedef vector<pi> vpi;
+typedef vector<pl> vpl;
+typedef vector<vi> vvi;
+typedef vector<vl> vvl;
+typedef map<int, int> mii;
+typedef map<ll, ll> mll;
+typedef set<int> seti;
+typedef set<ll> setll;
+typedef priority_queue<ll> pqll;
+typedef priority_queue<ll, vl, greater<ll>> pqllmn;
+ 
+#ifndef ONLINE_JUDGE
+#define debug(x) cerr << #x << " "; _print(x); cerr << endl;
+#else
+#define debug(x)
+#endif
+ 
+void _print(ll t) { cerr << t; }
+void _print(int t) { cerr << t; }
+void _print(string t) { cerr << t; }
+void _print(char t) { cerr << t; }
+void _print(lld t) { cerr << t; }
+void _print(double t) { cerr << t; }
+void _print(ull t) { cerr << t; }
+ 
+template <class T, class V> void _print(pair<T, V> p);
+template <class T> void _print(vector<T> v);
+template <class T> void _print(set<T> v);
+template <class T, class V> void _print(map<T, V> v);
+template <class T> void _print(multiset<T> v);
+template <class T, class V> void _print(pair<T, V> p) {
+    cerr << "{"; _print(p.first); cerr << ","; _print(p.second); cerr << "}";
+}
+template <class T> void _print(vector<T> v) {
+    cerr << "[ "; for (T i : v) { _print(i); cerr << " "; } cerr << "]";
+}
+template <class T> void _print(set<T> v) {
+    cerr << "[ "; for (T i : v) { _print(i); cerr << " "; } cerr << "]";
+}
+template <class T> void _print(multiset<T> v) {
+    cerr << "[ "; for (T i : v) { _print(i); cerr << " "; } cerr << "]";
+}
+template <class T, class V> void _print(map<T, V> v) {
+    cerr << "[ "; for (auto i : v) { _print(i); cerr << " "; } cerr << "]";
+}
+ 
+// Operator overloads
+template<typename T>
+istream& operator>>(istream &in, vector<T> &v) {
+    for (auto &it : v) cin >> it; return in;
+}
+template<typename T>
+ostream& operator<<(ostream &out, const vector<T> &v) {
+    for (auto &it : v) out << it << " "; return out;
+}
+template<typename T, typename V>
+ostream& operator<<(ostream &out, const map<T, V> &c) {
+    for (auto &it : c) out << it.first << " " << it.second << endl; return out;
+}
+ 
+// Modular arithmetic utilities
+const ll mod = 1000000007;
+ 
+ll modpow(ll a, ll b) {
+    ll res = 1;
+    while (b > 0) {
+        if (b & 1) res = (res * a) % mod;
+        a = (a * a) % mod;
+        b >>= 1;
+    }
+    return res;
+}
+ 
+ll modinv(ll a) {
+    return modpow(a, mod - 2);
+}
+ 
+void solve() {
+    string s;
+    cin>>s;
+    int n=s.size();
+    set<char> st;
+    int i;
+    for(i=0;i<n;i++)
+    {
+        if(st.find(s[i])==st.end())
+            st.insert(s[i]);
+        else break;
+ 
+    }
+    
+    for(int j=i;j<n;j++)
+    {
+        if(s[j]!=s[j-i])
+        {
+            cout<<"NO
+";
+            return;
+        }
+    }
+   
+    cout<<"YES
+";
+    return;
+    
+   
+ 
+}
+ 
+int32_t main() {
+    fastio();
+    #ifndef ONLINE_JUDGE
+        freopen("Error.txt", "w", stderr);
+    #endif
+    
+    int t = 1;
+    cin >> t;
+    while(t--) {
+        solve();
+    }
+    return 0;
+}
