@@ -35,35 +35,38 @@ ll modinv(ll a) {
 void solve() {
     long long  n;
     cin>>n;
-    map<long long,long long > divisors;
-    vector<long long > a;
-    for(long long  i=2;i*i<=n;i++){
+    ll a=-1,b=-1,c=-1;
+    for(ll i=2;i*i<=n;i++){
         if(n%i==0){
-            divisors[i]=1;
-            a.push_back(i);
-            if(n/i!=i){
-                a.push_back(n/i);
-                divisors[n/i]=1;
-            }
+            a=i;
+            n/=i;
+            break;
         }
     }
-    sort(a.begin(),a.end());
- 
-    long long  N=a.size();
-    bool found=false;
-    int l=0,r=1;
-    while(r<N){
-        long long  val=(n/(a[l]*a[r]));
-        if((val!=a[l] && val!=a[r]) &&( divisors[val]==1)){
-            cout<<"YES"<<endl;
-            cout<<a[l]<<" "<<a[r]<<" "<<val<<'
-';
-            return;
-        }
-        l++;
-        r++;
+    if(a==-1) {
+        cout<<"NO"<<endl;
+        return;
     }
-    cout<<"NO"<<endl;
+    // cout<<a<<endl;
+    for(ll i=2;i*i<=n;i++){
+        if(i!=a && n%i==0){
+            b=i;
+            n/=i;
+            break;
+        }
+    }
+    // cout<<b<<endl;
+    if(b==-1){
+        cout<<"NO"<<endl;
+        return;
+    }
+    c=n;
+    // cout<<c<<endl;
+    if(c>1 && c!=a && c!=b){
+        cout<<"YES"<<endl;
+        cout<<a<<" "<<b<<" "<<c<<endl;
+    }
+    else cout<<"NO"<<endl;
     return;
 }
  
