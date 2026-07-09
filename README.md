@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 395 | 28 |
+| 396 | 28 |
 
 ---
 
@@ -15,7 +15,7 @@
 - [*special](#special) (8)
 - [Uncategorized](#uncategorized) (2)
 - [binary search](#binary-search) (49)
-- [bitmasks](#bitmasks) (18)
+- [bitmasks](#bitmasks) (19)
 - [brute force](#brute-force) (75)
 - [combinatorics](#combinatorics) (18)
 - [constructive algorithms](#constructive-algorithms) (68)
@@ -27,12 +27,12 @@
 - [geometry](#geometry) (9)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (10)
-- [greedy](#greedy) (159)
+- [greedy](#greedy) (160)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (110)
 - [interactive](#interactive) (10)
-- [math](#math) (164)
-- [number theory](#number-theory) (38)
+- [math](#math) (165)
+- [number theory](#number-theory) (39)
 - [shortest paths](#shortest-paths) (4)
 - [sortings](#sortings) (67)
 - [string suffix structures](#string-suffix-structures) (1)
@@ -127,6 +127,7 @@
 | 1514B | [AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1514/B%20-%20AND%200%2C%20Sum%20Big/solution.cpp) |
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.cpp) |
 | 1567B | [MEXor Mixup](https://codeforces.com/contest/1567/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1567/B%20-%20MEXor%20Mixup/solution.cpp) |
+| 1601A | [Array Elimination](https://codeforces.com/contest/1601/problem/A) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1601/A%20-%20Array%20Elimination/solution.cpp) |
 | 1632B | [Roof Construction](https://codeforces.com/contest/1632/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1632/B%20-%20Roof%20Construction/solution.cpp) |
 | 1682B | [AND Sorting](https://codeforces.com/contest/1682/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1682/B%20-%20AND%20Sorting/solution.cpp) |
 | 1775B | [Gardener and the Array](https://codeforces.com/contest/1775/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1775/B%20-%20Gardener%20and%20the%20Array/solution.cpp) |
@@ -528,6 +529,7 @@
 | 1582C | [Grandma Capa Knits a Scarf](https://codeforces.com/contest/1582/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1582/C%20-%20Grandma%20Capa%20Knits%20a%20Scarf/solution.cpp) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.cpp) |
 | 1594C | [Make Them Equal](https://codeforces.com/contest/1594/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1594/C%20-%20Make%20Them%20Equal/solution.cpp) |
+| 1601A | [Array Elimination](https://codeforces.com/contest/1601/problem/A) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1601/A%20-%20Array%20Elimination/solution.cpp) |
 | 1610B | [Kalindrome Array](https://codeforces.com/contest/1610/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1610/B%20-%20Kalindrome%20Array/solution.cpp) |
 | 1617C | [Paprika and Permutation](https://codeforces.com/contest/1617/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1617/C%20-%20Paprika%20and%20Permutation/solution.cpp) |
 | 1620B | [Triangles on a Rectangle](https://codeforces.com/contest/1620/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1620/B%20-%20Triangles%20on%20a%20Rectangle/solution.cpp) |
@@ -844,6 +846,7 @@
 | 1582B | [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1582/B%20-%20Luntik%20and%20Subsequences/solution.cpp) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.cpp) |
 | 1594C | [Make Them Equal](https://codeforces.com/contest/1594/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1594/C%20-%20Make%20Them%20Equal/solution.cpp) |
+| 1601A | [Array Elimination](https://codeforces.com/contest/1601/problem/A) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1601/A%20-%20Array%20Elimination/solution.cpp) |
 | 1607B | [Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1607/B%20-%20Odd%20Grasshopper/solution.cpp) |
 | 1617C | [Paprika and Permutation](https://codeforces.com/contest/1617/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1617/C%20-%20Paprika%20and%20Permutation/solution.cpp) |
 | 1618C | [Paint the Array](https://codeforces.com/contest/1618/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1618/C%20-%20Paint%20the%20Array/solution.cpp) |
@@ -975,6 +978,7 @@
 | 1487B | [Cat Cycle](https://codeforces.com/contest/1487/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1487/B%20-%20Cat%20Cycle/solution.cpp) |
 | 1541B | [Pleasant Pairs](https://codeforces.com/contest/1541/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1541/B%20-%20Pleasant%20Pairs/solution.cpp) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.cpp) |
+| 1601A | [Array Elimination](https://codeforces.com/contest/1601/problem/A) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1601/A%20-%20Array%20Elimination/solution.cpp) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
 | 1742D | [Coprime](https://codeforces.com/contest/1742/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1742/D%20-%20Coprime/solution.cpp) |
 | 1765M | [Minimum LCM](https://codeforces.com/contest/1765/problem/M) | 1000 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1765/M%20-%20Minimum%20LCM/solution.cpp) |
