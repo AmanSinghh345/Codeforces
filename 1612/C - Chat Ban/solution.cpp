@@ -31,57 +31,29 @@ ll modpow(ll a, ll b) {
 ll modinv(ll a) {
     return modpow(a, MOD - 2);
 }
- 
+ll getSum(ll n,ll k){
+    if(n<=k){
+        return  n*(n+1)/2;
+    }
+    else {
+        ll d=n-k;
+        return  k*(k+1)/2 + d*(k-1+k-d)/2;
+    }
+}
 void solve() {
-    long long k,x;
+    ll k,x;
     cin>>k>>x;
-    if(x>=(k*k)) {
-        cout<<2*k-1<<endl;
-        return;
-    }
-    long long cnt=0;
-    long long have=0;
-    long long midVal=(k*(k+1))/2;
-    if(x>midVal){
-        cnt+=k;
-        long long req=x-midVal;
-        long long l=1,h=k-1;
-        long long ans=k-1;
-        long long Total=((k-1)*k)/2;
-        while(l<=h){
-            long long mid=l+(h-l)/2;
-            long long val=(mid*(2*k-mid-1))/2;
-            if(val<req){
-                l=mid+1;
-            }
- 
-            else{
-                ans=mid;
-                h=mid-1;
-            }
+    ll l=1,h=2*k-1,ans=2*k-1;
+    while(l<=h){
+        ll mid=l+(h-l)/2;
+        if(getSum(mid,k)>=x){
+            ans=mid;
+            h=mid-1;
         }
-        cout<<cnt+ans<<"
-";
-        return;
+        else l=mid+1;
     }
-    else{
-        long long  l=1,h=k;
-        long long mid=l+(h-l)/2;
-        long long ans=k;
-        while(l<=h){
-            long long mid=l+(h-l)/2;
-            long long val=(mid*(mid+1))/2;
-            if(val<x){
-                l=mid+1;
-            }
-            else {
-                ans=mid;
-                h=mid-1;
-            }
-        }
-        cout<<ans<<"
+    cout<<ans<<"
 ";
-    }
     return;
 }
  
