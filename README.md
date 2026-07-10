@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 403 | 28 |
+| 404 | 28 |
 
 ---
 
@@ -20,20 +20,20 @@
 - [combinatorics](#combinatorics) (19)
 - [constructive algorithms](#constructive-algorithms) (69)
 - [data structures](#data-structures) (35)
-- [dfs and similar](#dfs-and-similar) (13)
+- [dfs and similar](#dfs-and-similar) (14)
 - [dp](#dp) (45)
-- [dsu](#dsu) (5)
+- [dsu](#dsu) (6)
 - [games](#games) (12)
 - [geometry](#geometry) (9)
 - [graph matchings](#graph-matchings) (2)
-- [graphs](#graphs) (11)
+- [graphs](#graphs) (12)
 - [greedy](#greedy) (162)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (111)
 - [interactive](#interactive) (10)
 - [math](#math) (171)
 - [number theory](#number-theory) (41)
-- [shortest paths](#shortest-paths) (4)
+- [shortest paths](#shortest-paths) (5)
 - [sortings](#sortings) (69)
 - [string suffix structures](#string-suffix-structures) (1)
 - [strings](#strings) (43)
@@ -376,6 +376,7 @@
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.cpp) |
 | 1676G | [White-Black Balanced Subtrees](https://codeforces.com/contest/1676/problem/G) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1676/G%20-%20White-Black%20Balanced%20Subtrees/solution.cpp) |
 | 1829D | [Gold Rush](https://codeforces.com/contest/1829/problem/D) | 1000 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1829/D%20-%20Gold%20Rush/solution.cpp) |
+| 1833E | [Round Dance](https://codeforces.com/contest/1833/problem/E) | 1600 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1833/E%20-%20Round%20Dance/solution.cpp) |
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
 | 2183D1 | [Tree Coloring (Easy Version)](https://codeforces.com/contest/2183/problem/D1) | 1500 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2183/D1%20-%20Tree%20Coloring%20(Easy%20Version)/solution.cpp) |
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
@@ -436,6 +437,7 @@
 |---|---------|------------|----------|
 | 1176E | [Cover it!](https://codeforces.com/contest/1176/problem/E) | 1700 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1176/E%20-%20Cover%20it!/solution.cpp) |
 | 1675E | [Replace With the Previous, Minimize](https://codeforces.com/contest/1675/problem/E) | 1500 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1675/E%20-%20Replace%20With%20the%20Previous%2C%20Minimize/solution.cpp) |
+| 1833E | [Round Dance](https://codeforces.com/contest/1833/problem/E) | 1600 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1833/E%20-%20Round%20Dance/solution.cpp) |
 | 1927D | [Find the Different Ones!](https://codeforces.com/contest/1927/problem/D) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1927/D%20-%20Find%20the%20Different%20Ones!/solution.cpp) |
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
 | 2184E | [Exquisite Array](https://codeforces.com/contest/2184/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2184/E%20-%20Exquisite%20Array/solution.cpp) |
@@ -489,6 +491,7 @@
 | 1328D | [Carousel](https://codeforces.com/contest/1328/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1328/D%20-%20Carousel/solution.cpp) |
 | 1676G | [White-Black Balanced Subtrees](https://codeforces.com/contest/1676/problem/G) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1676/G%20-%20White-Black%20Balanced%20Subtrees/solution.cpp) |
 | 1695C | [Zero Path](https://codeforces.com/contest/1695/problem/C) | 1700 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1695/C%20-%20Zero%20Path/solution.cpp) |
+| 1833E | [Round Dance](https://codeforces.com/contest/1833/problem/E) | 1600 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1833/E%20-%20Round%20Dance/solution.cpp) |
 | 2078B | [Vicious Labyrinth](https://codeforces.com/contest/2078/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2078/B%20-%20Vicious%20Labyrinth/solution.cpp) |
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
 | 2155B | [Abraham's Great Escape](https://codeforces.com/contest/2155/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2155/B%20-%20Abraham's%20Great%20Escape/solution.cpp) |
@@ -1028,6 +1031,7 @@
 | 520B | [Two Buttons](https://codeforces.com/contest/520/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/520/B%20-%20Two%20Buttons/solution.cpp) |
 | 1176E | [Cover it!](https://codeforces.com/contest/1176/problem/E) | 1700 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1176/E%20-%20Cover%20it!/solution.cpp) |
 | 1695C | [Zero Path](https://codeforces.com/contest/1695/problem/C) | 1700 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1695/C%20-%20Zero%20Path/solution.cpp) |
+| 1833E | [Round Dance](https://codeforces.com/contest/1833/problem/E) | 1600 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1833/E%20-%20Round%20Dance/solution.cpp) |
 | 1869B | [2D Traveling](https://codeforces.com/contest/1869/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1869/B%20-%202D%20Traveling/solution.cpp) |
 
 ### sortings
