@@ -5,7 +5,7 @@ using namespace std;
 #define ll long long
 #define endl '
 '
-#define pb push_back
+ 
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
 #define set_bits(x) __builtin_popcountll(x)
@@ -31,41 +31,80 @@ ll modpow(ll a, ll b) {
 ll modinv(ll a) {
     return modpow(a, MOD - 2);
 }
-void dfs(int node,vector<int>& vis,vector<set<int>>& adj,bool& al){
-    vis[node]=1;
-          if((int)adj[node].size()!=2) al=false;
-    for(int neigh:adj[node]){
-        if(!vis[neigh]) dfs(neigh,vis,adj,al);
+class DSU{
+    public:
+    int n;
+    vector<int> parent;
+    vector<int> size;
+    DSU(int n){
+        this->n=n;
+        parent.resize(n);
+        size.assign(n,1);
+        for(int i=0;i<n;i++) parent[i]=i;
     }
-    return ;
-}
+ 
+    int find(int node){
+        if(parent[node]==node) return node;
+        return parent[node]=find(parent[node]);
+    }
+    void UnionBySize(int a,int b){
+        int pa=find(a);
+        int pb=find(b);
+        if(pa==pb)  return;
+        if(size[pa]<size[pb]) swap(pa,pb);
+        parent[pb]=pa;
+        size[pa]+=size[pb];
+    }
+};
  
 void solve() {
     int n;
     cin>>n;
-    vector<set<int>> adj(n+1);
-    for(int i=1;i<=n;i++){
-        int x;
-        cin>>x;
-        adj[i].insert(x);
-        adj[x].insert(i);
-    }
+    vector<int> a(n);
+    vector<int> degree(n,0);
+    DSU dsu(n);
+    set<pair<int,int>> edges;
  
-   
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+        a[i]--;
+        int u=i;
+        int v=a[i];
  
-    int cnt=0;
-    int cyc=0;
-    vector<int> vis(n+1,0);
-    for(int i=1;i<=n;i++){
-        if(vis[i]==0){
-            cnt++;
-            bool al=true;
-            dfs(i,vis,adj,al);
-            if(al) cyc++;
+        dsu.UnionBySize(u,v);
+        pair<int,int> edge={min(u,v),max(v,u)};
+ 
+        if(edges.insert(edge).second){
+            degree[u]++;
+            degree[v]++;
         }
     }
-    cout<<cyc+(cnt-cyc>0?1:0)<<" "<<cnt<<'
-';
+ 
+ 
+ 
+ 
+    vector<bool> cycle(n,true);
+    for(int i=0;i<n;i++){
+        int root=dsu.find(i);
+        if(degree[i]!=2) cycle[root]=false;
+    }
+ 
+ 
+ 
+    
+    int comp=0,cyc=0;
+    for(int i=0;i<n;i++){
+        if(dsu.find(i)==i){
+            comp++;
+            if(cycle[i]){
+                cyc++;
+            }
+        }
+    }
+ 
+ 
+ 
+    cout<<cyc+(comp-cyc>0?1:0)<<" "<<comp<<endl;
     return;
 }
  
