@@ -35,29 +35,28 @@ ll modinv(ll a) {
 void solve() {
     int n,w;
     cin>>n>>w;
-    vector<int> power(31,0);
+    multiset<int> mset;
     for(int i=0;i<n;i++){
         int x;
         cin>>x;
-        int cntTrailingZero=__builtin_ctz(x);
-        power[cntTrailingZero]++;
+        mset.insert(x);
     }
  
-    int remainingRectangle=n;
     int height=0;
-    while(remainingRectangle>0){
-        int remainingWidth=w;
-        for(int j=30;j>=0;j--){
-            int recWidth=(1<<j);
-            int canTake=remainingWidth/recWidth;
-            int take=min(power[j],canTake);
-            power[j]-=take;
-            remainingRectangle-=take;
-            remainingWidth-=(recWidth*take);
-        } 
-       height++;
+    while(!mset.empty()){
+        int rem=w;
+        while(!mset.empty()){
+            auto it=mset.upper_bound(rem);
+             if(it==mset.begin()) break;
+            --it;
+           
+            rem-=*it;
+            mset.erase(it);
+        }
+        height++;
     }
-    cout<<height<<endl;
+    cout<<height<<"
+";
     return;
 }
  
