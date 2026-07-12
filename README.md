@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 408 | 28 |
+| 409 | 28 |
 
 ---
 
@@ -27,7 +27,7 @@
 - [geometry](#geometry) (9)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (12)
-- [greedy](#greedy) (166)
+- [greedy](#greedy) (167)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (111)
 - [interactive](#interactive) (10)
@@ -39,7 +39,7 @@
 - [strings](#strings) (43)
 - [ternary search](#ternary-search) (2)
 - [trees](#trees) (5)
-- [two pointers](#two-pointers) (42)
+- [two pointers](#two-pointers) (43)
 
 ---
 
@@ -527,6 +527,7 @@
 | 1341B | [Nastya and Door](https://codeforces.com/contest/1341/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1341/B%20-%20Nastya%20and%20Door/solution.cpp) |
 | 1343C | [Alternating Subsequence](https://codeforces.com/contest/1343/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1343/C%20-%20Alternating%20Subsequence/solution.cpp) |
 | 1348A | [Phoenix and Balance](https://codeforces.com/contest/1348/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1348/A%20-%20Phoenix%20and%20Balance/solution.cpp) |
+| 1364B | [Most socially-distanced subsequence](https://codeforces.com/contest/1364/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1364/B%20-%20Most%20socially-distanced%20subsequence/solution.cpp) |
 | 1367B | [Even Array](https://codeforces.com/contest/1367/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1367/B%20-%20Even%20Array/solution.cpp) |
 | 1372B | [Omkar and Last Class of Math](https://codeforces.com/contest/1372/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1372/B%20-%20Omkar%20and%20Last%20Class%20of%20Math/solution.cpp) |
 | 1374C | [Move Brackets](https://codeforces.com/contest/1374/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1374/C%20-%20Move%20Brackets/solution.cpp) |
@@ -1208,6 +1209,7 @@
 | 1166C | [A Tale of Two Lands](https://codeforces.com/contest/1166/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1166/C%20-%20A%20Tale%20of%20Two%20Lands/solution.cpp) |
 | 1336B | [Xenia and Colorful Gems](https://codeforces.com/contest/1336/problem/B) | 1700 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1336/B%20-%20Xenia%20and%20Colorful%20Gems/solution.cpp) |
 | 1343C | [Alternating Subsequence](https://codeforces.com/contest/1343/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1343/C%20-%20Alternating%20Subsequence/solution.cpp) |
+| 1364B | [Most socially-distanced subsequence](https://codeforces.com/contest/1364/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1364/B%20-%20Most%20socially-distanced%20subsequence/solution.cpp) |
 | 1366B | [Shuffle](https://codeforces.com/contest/1366/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1366/B%20-%20Shuffle/solution.cpp) |
 | 1407C | [Chocolate Bunny](https://codeforces.com/contest/1407/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1407/C%20-%20Chocolate%20Bunny/solution.cpp) |
 | 1470A | [Strange Birthday Party](https://codeforces.com/contest/1470/problem/A) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1470/A%20-%20Strange%20Birthday%20Party/solution.cpp) |
