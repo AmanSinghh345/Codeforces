@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 411 | 28 |
+| 412 | 28 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [constructive algorithms](#constructive-algorithms) (69)
 - [data structures](#data-structures) (37)
 - [dfs and similar](#dfs-and-similar) (14)
-- [dp](#dp) (46)
+- [dp](#dp) (47)
 - [dsu](#dsu) (6)
 - [games](#games) (12)
 - [geometry](#geometry) (9)
@@ -36,7 +36,7 @@
 - [shortest paths](#shortest-paths) (5)
 - [sortings](#sortings) (72)
 - [string suffix structures](#string-suffix-structures) (1)
-- [strings](#strings) (43)
+- [strings](#strings) (44)
 - [ternary search](#ternary-search) (2)
 - [trees](#trees) (5)
 - [two pointers](#two-pointers) (44)
@@ -403,6 +403,7 @@
 | 665C | [Simple Strings](https://codeforces.com/contest/665/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/665/C%20-%20Simple%20Strings/solution.cpp) |
 | 869C | [The Intriguing Obsession](https://codeforces.com/contest/869/problem/C) | 1800 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/869/C%20-%20The%20Intriguing%20Obsession/solution.cpp) |
 | 996A | [Hit the Lottery](https://codeforces.com/contest/996/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/996/A%20-%20Hit%20the%20Lottery/solution.cpp) |
+| 1178B | [WOW Factor](https://codeforces.com/contest/1178/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1178/B%20-%20WOW%20Factor/solution.cpp) |
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.cpp) |
 | 1288C | [Two Arrays](https://codeforces.com/contest/1288/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1288/C%20-%20Two%20Arrays/solution.cpp) |
 | 1328D | [Carousel](https://codeforces.com/contest/1328/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1328/D%20-%20Carousel/solution.cpp) |
@@ -1151,6 +1152,7 @@
 | 665C | [Simple Strings](https://codeforces.com/contest/665/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/665/C%20-%20Simple%20Strings/solution.cpp) |
 | 701C | [They Are Everywhere](https://codeforces.com/contest/701/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/701/C%20-%20They%20Are%20Everywhere/solution.cpp) |
 | 1155A | [Reverse a Substring](https://codeforces.com/contest/1155/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1155/A%20-%20Reverse%20a%20Substring/solution.cpp) |
+| 1178B | [WOW Factor](https://codeforces.com/contest/1178/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1178/B%20-%20WOW%20Factor/solution.cpp) |
 | 1374C | [Move Brackets](https://codeforces.com/contest/1374/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1374/C%20-%20Move%20Brackets/solution.cpp) |
 | 1506C | [Double-ended Strings](https://codeforces.com/contest/1506/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1506/C%20-%20Double-ended%20Strings/solution.cpp) |
 | 1536B | [Prinzessin der Verurteilung](https://codeforces.com/contest/1536/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1536/B%20-%20Prinzessin%20der%20Verurteilung/solution.cpp) |
