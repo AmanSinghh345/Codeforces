@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 412 | 28 |
+| 413 | 29 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (8)
 - [Uncategorized](#uncategorized) (2)
-- [binary search](#binary-search) (54)
+- [binary search](#binary-search) (55)
 - [bitmasks](#bitmasks) (21)
 - [brute force](#brute-force) (75)
 - [combinatorics](#combinatorics) (19)
@@ -23,18 +23,19 @@
 - [dfs and similar](#dfs-and-similar) (14)
 - [dp](#dp) (47)
 - [dsu](#dsu) (6)
+- [flows](#flows) (1)
 - [games](#games) (12)
 - [geometry](#geometry) (9)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (12)
-- [greedy](#greedy) (167)
+- [greedy](#greedy) (168)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (111)
 - [interactive](#interactive) (10)
 - [math](#math) (173)
 - [number theory](#number-theory) (43)
 - [shortest paths](#shortest-paths) (5)
-- [sortings](#sortings) (72)
+- [sortings](#sortings) (73)
 - [string suffix structures](#string-suffix-structures) (1)
 - [strings](#strings) (44)
 - [ternary search](#ternary-search) (2)
@@ -79,6 +80,7 @@
 | 750A | [New Year and Hurry](https://codeforces.com/contest/750/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/750/A%20-%20New%20Year%20and%20Hurry/solution.cpp) |
 | 812C | [Sagheer and Nubian Market](https://codeforces.com/contest/812/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/812/C%20-%20Sagheer%20and%20Nubian%20Market/solution.cpp) |
 | 925A | [Stairs and Elevators](https://codeforces.com/contest/925/problem/A) | 1600 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/925/A%20-%20Stairs%20and%20Elevators/solution.cpp) |
+| 1119B | [Alyona and a Narrow Fridge](https://codeforces.com/contest/1119/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1119/B%20-%20Alyona%20and%20a%20Narrow%20Fridge/solution.cpp) |
 | 1166C | [A Tale of Two Lands](https://codeforces.com/contest/1166/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1166/C%20-%20A%20Tale%20of%20Two%20Lands/solution.cpp) |
 | 1336B | [Xenia and Colorful Gems](https://codeforces.com/contest/1336/problem/B) | 1700 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1336/B%20-%20Xenia%20and%20Colorful%20Gems/solution.cpp) |
 | 1352C | [K-th Not Divisible by n](https://codeforces.com/contest/1352/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1352/C%20-%20K-th%20Not%20Divisible%20by%20n/solution.cpp) |
@@ -450,6 +452,12 @@
 | 2086C | [Disappearing Permutation](https://codeforces.com/contest/2086/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2086/C%20-%20Disappearing%20Permutation/solution.cpp) |
 | 2184E | [Exquisite Array](https://codeforces.com/contest/2184/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2184/E%20-%20Exquisite%20Array/solution.cpp) |
 
+### flows
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1119B | [Alyona and a Narrow Fridge](https://codeforces.com/contest/1119/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1119/B%20-%20Alyona%20and%20a%20Narrow%20Fridge/solution.cpp) |
+
 ### games
 
 | # | Problem | Difficulty | Solution |
@@ -521,6 +529,7 @@
 | 665C | [Simple Strings](https://codeforces.com/contest/665/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/665/C%20-%20Simple%20Strings/solution.cpp) |
 | 762B | [USB vs. PS/2](https://codeforces.com/contest/762/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/762/B%20-%20USB%20vs.%20PS%2F2/solution.cpp) |
 | 996A | [Hit the Lottery](https://codeforces.com/contest/996/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/996/A%20-%20Hit%20the%20Lottery/solution.cpp) |
+| 1119B | [Alyona and a Narrow Fridge](https://codeforces.com/contest/1119/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1119/B%20-%20Alyona%20and%20a%20Narrow%20Fridge/solution.cpp) |
 | 1201B | [Zero Array](https://codeforces.com/contest/1201/problem/B) | 1500 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1201/B%20-%20Zero%20Array/solution.cpp) |
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.cpp) |
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
@@ -1063,6 +1072,7 @@
 | 762B | [USB vs. PS/2](https://codeforces.com/contest/762/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/762/B%20-%20USB%20vs.%20PS%2F2/solution.cpp) |
 | 812C | [Sagheer and Nubian Market](https://codeforces.com/contest/812/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/812/C%20-%20Sagheer%20and%20Nubian%20Market/solution.cpp) |
 | 1102E | [Monotonic Renumeration](https://codeforces.com/contest/1102/problem/E) | 1700 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1102/E%20-%20Monotonic%20Renumeration/solution.cpp) |
+| 1119B | [Alyona and a Narrow Fridge](https://codeforces.com/contest/1119/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1119/B%20-%20Alyona%20and%20a%20Narrow%20Fridge/solution.cpp) |
 | 1155A | [Reverse a Substring](https://codeforces.com/contest/1155/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1155/A%20-%20Reverse%20a%20Substring/solution.cpp) |
 | 1166C | [A Tale of Two Lands](https://codeforces.com/contest/1166/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1166/C%20-%20A%20Tale%20of%20Two%20Lands/solution.cpp) |
 | 1237B | [Balanced Tunnel](https://codeforces.com/contest/1237/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1237/B%20-%20Balanced%20Tunnel/solution.cpp) |
