@@ -50,11 +50,7 @@ void solve() {
         adj[v].push_back(u);
     }
  
-    for(int i=1;i<=n;i++){
-        if(color[i]==-1){
-            dfs(i,0,color,adj);
-        }
-    }
+    dfs(1,0,color,adj);
     // for(int x:color) cout<<x<<" ";
     cout<<endl;
     long long  red=0;
