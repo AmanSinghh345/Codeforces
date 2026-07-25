@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 427 | 30 |
+| 428 | 30 |
 
 ---
 
@@ -14,12 +14,12 @@
 
 - [*special](#special) (8)
 - [Uncategorized](#uncategorized) (2)
-- [binary search](#binary-search) (61)
+- [binary search](#binary-search) (62)
 - [bitmasks](#bitmasks) (22)
 - [brute force](#brute-force) (77)
 - [combinatorics](#combinatorics) (19)
 - [constructive algorithms](#constructive-algorithms) (72)
-- [data structures](#data-structures) (42)
+- [data structures](#data-structures) (43)
 - [dfs and similar](#dfs-and-similar) (16)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (54)
@@ -31,7 +31,7 @@
 - [graphs](#graphs) (14)
 - [greedy](#greedy) (172)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (112)
+- [implementation](#implementation) (113)
 - [interactive](#interactive) (10)
 - [math](#math) (173)
 - [number theory](#number-theory) (44)
@@ -106,6 +106,7 @@
 | 1771B | [Hossam and Friends](https://codeforces.com/contest/1771/problem/B) | 1400 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1771/B%20-%20Hossam%20and%20Friends/solution.cpp) |
 | 1777C | [Quiz Master](https://codeforces.com/contest/1777/problem/C) | 1700 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1777/C%20-%20Quiz%20Master/solution.cpp) |
 | 1794C | [Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1794/C%20-%20Scoring%20Subsequences/solution.cpp) |
+| 1795C | [Tea Tasting](https://codeforces.com/contest/1795/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1795/C%20-%20Tea%20Tasting/solution.cpp) |
 | 1807E | [Interview](https://codeforces.com/contest/1807/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1807/E%20-%20Interview/solution.cpp) |
 | 1843E | [Tracking Segments](https://codeforces.com/contest/1843/problem/E) | 1600 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1843/E%20-%20Tracking%20Segments/solution.cpp) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.cpp) |
@@ -369,6 +370,7 @@
 | 1703F | [Yet Another Problem About Pairs Satisfying an Inequality](https://codeforces.com/contest/1703/problem/F) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1703/F%20-%20Yet%20Another%20Problem%20About%20Pairs%20Satisfying%20an%20Inequality/solution.cpp) |
 | 1790D | [Matryoshkas](https://codeforces.com/contest/1790/problem/D) | 1200 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1790/D%20-%20Matryoshkas/solution.cpp) |
 | 1793C | [Dora and Search](https://codeforces.com/contest/1793/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1793/C%20-%20Dora%20and%20Search/solution.cpp) |
+| 1795C | [Tea Tasting](https://codeforces.com/contest/1795/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1795/C%20-%20Tea%20Tasting/solution.cpp) |
 | 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
 | 1807G1 | [Subsequence Addition (Easy Version)](https://codeforces.com/contest/1807/problem/G1) | 1100 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1807/G1%20-%20Subsequence%20Addition%20(Easy%20Version)/solution.cpp) |
 | 1833F | [Ira and Flamenco](https://codeforces.com/contest/1833/problem/F) | 1700 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1833/F%20-%20Ira%20and%20Flamenco/solution.cpp) |
@@ -805,6 +807,7 @@
 | 1766A | [Extremely Round](https://codeforces.com/contest/1766/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1766/A%20-%20Extremely%20Round/solution.cpp) |
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.cpp) |
 | 1791C | [Prepend and Append](https://codeforces.com/contest/1791/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1791/C%20-%20Prepend%20and%20Append/solution.cpp) |
+| 1795C | [Tea Tasting](https://codeforces.com/contest/1795/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1795/C%20-%20Tea%20Tasting/solution.cpp) |
 | 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
 | 1807E | [Interview](https://codeforces.com/contest/1807/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1807/E%20-%20Interview/solution.cpp) |
 | 1807G1 | [Subsequence Addition (Easy Version)](https://codeforces.com/contest/1807/problem/G1) | 1100 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1807/G1%20-%20Subsequence%20Addition%20(Easy%20Version)/solution.cpp) |
