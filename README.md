@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 436 | 30 |
+| 437 | 30 |
 
 ---
 
@@ -22,7 +22,7 @@
 - [data structures](#data-structures) (43)
 - [dfs and similar](#dfs-and-similar) (17)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (57)
+- [dp](#dp) (58)
 - [dsu](#dsu) (6)
 - [flows](#flows) (1)
 - [games](#games) (13)
@@ -446,6 +446,7 @@
 | 869C | [The Intriguing Obsession](https://codeforces.com/contest/869/problem/C) | 1800 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/869/C%20-%20The%20Intriguing%20Obsession/solution.cpp) |
 | 996A | [Hit the Lottery](https://codeforces.com/contest/996/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/996/A%20-%20Hit%20the%20Lottery/solution.cpp) |
 | 1178B | [WOW Factor](https://codeforces.com/contest/1178/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1178/B%20-%20WOW%20Factor/solution.cpp) |
+| 1195C | [Basketball Exercise](https://codeforces.com/contest/1195/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1195/C%20-%20Basketball%20Exercise/solution.cpp) |
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.cpp) |
 | 1288C | [Two Arrays](https://codeforces.com/contest/1288/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1288/C%20-%20Two%20Arrays/solution.cpp) |
 | 1328D | [Carousel](https://codeforces.com/contest/1328/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1328/D%20-%20Carousel/solution.cpp) |
