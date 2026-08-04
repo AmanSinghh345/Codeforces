@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 437 | 30 |
+| 438 | 30 |
 
 ---
 
@@ -31,17 +31,17 @@
 - [graphs](#graphs) (15)
 - [greedy](#greedy) (175)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (115)
+- [implementation](#implementation) (116)
 - [interactive](#interactive) (10)
 - [math](#math) (177)
 - [number theory](#number-theory) (46)
 - [shortest paths](#shortest-paths) (7)
 - [sortings](#sortings) (80)
 - [string suffix structures](#string-suffix-structures) (1)
-- [strings](#strings) (45)
+- [strings](#strings) (46)
 - [ternary search](#ternary-search) (2)
 - [trees](#trees) (8)
-- [two pointers](#two-pointers) (50)
+- [two pointers](#two-pointers) (51)
 
 ---
 
@@ -874,6 +874,7 @@
 | 2179C | [Blackslex and Number Theory](https://codeforces.com/contest/2179/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2179/C%20-%20Blackslex%20and%20Number%20Theory/solution.cpp) |
 | 2185C | [Shifted MEX](https://codeforces.com/contest/2185/problem/C) | 900 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2185/C%20-%20Shifted%20MEX/solution.cpp) |
 | 2214A | [Odd One Out](https://codeforces.com/contest/2214/problem/A) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2214/A%20-%20Odd%20One%20Out/solution.cpp) |
+| 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2254/B%20-%20Evanescent/solution.cpp) |
 
 ### interactive
 
@@ -1275,6 +1276,7 @@
 | 2214B | [Are You Smiling?](https://codeforces.com/contest/2214/problem/B) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2214/B%20-%20Are%20You%20Smiling%3F/solution.cpp) |
 | 2214D | [Neural Feud](https://codeforces.com/contest/2214/problem/D) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2214/D%20-%20Neural%20Feud/solution.cpp) |
 | 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
+| 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2254/B%20-%20Evanescent/solution.cpp) |
 
 ### ternary search
 
@@ -1350,6 +1352,7 @@
 | 2094D | [Tung Tung Sahur](https://codeforces.com/contest/2094/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2094/D%20-%20Tung%20Tung%20Sahur/solution.cpp) |
 | 2123E | [MEX Count](https://codeforces.com/contest/2123/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2123/E%20-%20MEX%20Count/solution.cpp) |
 | 2154A | [Notelock](https://codeforces.com/contest/2154/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2154/A%20-%20Notelock/solution.cpp) |
+| 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2254/B%20-%20Evanescent/solution.cpp) |
 
 ---
 
