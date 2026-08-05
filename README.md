@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 438 | 30 |
+| 439 | 30 |
 
 ---
 
@@ -31,12 +31,12 @@
 - [graphs](#graphs) (15)
 - [greedy](#greedy) (175)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (116)
+- [implementation](#implementation) (117)
 - [interactive](#interactive) (10)
 - [math](#math) (177)
 - [number theory](#number-theory) (46)
 - [shortest paths](#shortest-paths) (7)
-- [sortings](#sortings) (80)
+- [sortings](#sortings) (81)
 - [string suffix structures](#string-suffix-structures) (1)
 - [strings](#strings) (46)
 - [ternary search](#ternary-search) (2)
@@ -874,6 +874,7 @@
 | 2179C | [Blackslex and Number Theory](https://codeforces.com/contest/2179/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2179/C%20-%20Blackslex%20and%20Number%20Theory/solution.cpp) |
 | 2185C | [Shifted MEX](https://codeforces.com/contest/2185/problem/C) | 900 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2185/C%20-%20Shifted%20MEX/solution.cpp) |
 | 2214A | [Odd One Out](https://codeforces.com/contest/2214/problem/A) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2214/A%20-%20Odd%20One%20Out/solution.cpp) |
+| 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2254/B%20-%20Evanescent/solution.cpp) |
 
 ### interactive
@@ -1220,6 +1221,7 @@
 | 2184E | [Exquisite Array](https://codeforces.com/contest/2184/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2184/E%20-%20Exquisite%20Array/solution.cpp) |
 | 2185C | [Shifted MEX](https://codeforces.com/contest/2185/problem/C) | 900 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2185/C%20-%20Shifted%20MEX/solution.cpp) |
 | 2191B | [MEX Reordering](https://codeforces.com/contest/2191/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2191/B%20-%20MEX%20Reordering/solution.cpp) |
+| 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
 
 ### string suffix structures
 
