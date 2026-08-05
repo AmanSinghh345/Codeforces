@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 439 | 30 |
+| 440 | 30 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (2)
 - [binary search](#binary-search) (67)
 - [bitmasks](#bitmasks) (22)
-- [brute force](#brute-force) (81)
+- [brute force](#brute-force) (82)
 - [combinatorics](#combinatorics) (19)
 - [constructive algorithms](#constructive-algorithms) (73)
 - [data structures](#data-structures) (43)
@@ -33,7 +33,7 @@
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (117)
 - [interactive](#interactive) (10)
-- [math](#math) (177)
+- [math](#math) (178)
 - [number theory](#number-theory) (46)
 - [shortest paths](#shortest-paths) (7)
 - [sortings](#sortings) (81)
@@ -201,6 +201,7 @@
 | 1673B | [A Perfectly Balanced String?](https://codeforces.com/contest/1673/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1673/B%20-%20A%20Perfectly%20Balanced%20String%3F/solution.cpp) |
 | 1673C | [Palindrome Basis](https://codeforces.com/contest/1673/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1673/C%20-%20Palindrome%20Basis/solution.cpp) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
+| 1692F | [3SUM](https://codeforces.com/contest/1692/problem/F) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1692/F%20-%203SUM/solution.cpp) |
 | 1695C | [Zero Path](https://codeforces.com/contest/1695/problem/C) | 1700 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1695/C%20-%20Zero%20Path/solution.cpp) |
 | 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.cpp) |
 | 1742D | [Coprime](https://codeforces.com/contest/1742/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1742/D%20-%20Coprime/solution.cpp) |
@@ -970,6 +971,7 @@
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.cpp) |
 | 1673C | [Palindrome Basis](https://codeforces.com/contest/1673/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1673/C%20-%20Palindrome%20Basis/solution.cpp) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
+| 1692F | [3SUM](https://codeforces.com/contest/1692/problem/F) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1692/F%20-%203SUM/solution.cpp) |
 | 1692H | [Gambling](https://codeforces.com/contest/1692/problem/H) | 1700 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1692/H%20-%20Gambling/solution.cpp) |
 | 1708B | [Difference of GCDs](https://codeforces.com/contest/1708/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1708/B%20-%20Difference%20of%20GCDs/solution.cpp) |
 | 1715B | [Beautiful Array](https://codeforces.com/contest/1715/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1715/B%20-%20Beautiful%20Array/solution.cpp) |
