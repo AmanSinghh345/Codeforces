@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 443 | 30 |
+| 444 | 30 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (8)
-- [Uncategorized](#uncategorized) (3)
+- [Uncategorized](#uncategorized) (4)
 - [binary search](#binary-search) (68)
 - [bitmasks](#bitmasks) (22)
 - [brute force](#brute-force) (82)
@@ -65,6 +65,7 @@
 | 699C | [Vacations](https://codeforces.com/contest/699/problem/C) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/699/C%20-%20Vacations/solution.cpp) |
 | 1077C | [Good Array](https://codeforces.com/contest/1077/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1077/C%20-%20Good%20Array/solution.cpp) |
 | 2253A | [The Best Card](https://codeforces.com/contest/2253/problem/A) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2253/A%20-%20The%20Best%20Card/solution.cpp) |
+| 2253B | [Hypercarp and the Control Panel](https://codeforces.com/contest/2253/problem/B) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2253/B%20-%20Hypercarp%20and%20the%20Control%20Panel/solution.cpp) |
 
 ### binary search
 
