@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 444 | 30 |
+| 445 | 30 |
 
 ---
 
@@ -17,12 +17,12 @@
 - [binary search](#binary-search) (68)
 - [bitmasks](#bitmasks) (22)
 - [brute force](#brute-force) (82)
-- [combinatorics](#combinatorics) (19)
+- [combinatorics](#combinatorics) (20)
 - [constructive algorithms](#constructive-algorithms) (73)
 - [data structures](#data-structures) (43)
 - [dfs and similar](#dfs-and-similar) (17)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (58)
+- [dp](#dp) (59)
 - [dsu](#dsu) (6)
 - [flows](#flows) (1)
 - [games](#games) (13)
@@ -34,7 +34,7 @@
 - [implementation](#implementation) (118)
 - [interactive](#interactive) (10)
 - [math](#math) (178)
-- [number theory](#number-theory) (46)
+- [number theory](#number-theory) (47)
 - [shortest paths](#shortest-paths) (7)
 - [sortings](#sortings) (81)
 - [string suffix structures](#string-suffix-structures) (1)
@@ -259,6 +259,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 57C | [Array](https://codeforces.com/contest/57/problem/C) | 1900 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/57/C%20-%20Array/solution.cpp) |
+| 414B | [Mashmokh and ACM](https://codeforces.com/contest/414/problem/B) | 1400 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/414/B%20-%20Mashmokh%20and%20ACM/solution.cpp) |
 | 630C | [Lucky Numbers](https://codeforces.com/contest/630/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/630/C%20-%20Lucky%20Numbers/solution.cpp) |
 | 844B | [Rectangles](https://codeforces.com/contest/844/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/844/B%20-%20Rectangles/solution.cpp) |
 | 869C | [The Intriguing Obsession](https://codeforces.com/contest/869/problem/C) | 1800 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/869/C%20-%20The%20Intriguing%20Obsession/solution.cpp) |
@@ -438,6 +439,7 @@
 |---|---------|------------|----------|
 | 189A | [Cut Ribbon](https://codeforces.com/contest/189/problem/A) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/189/A%20-%20Cut%20Ribbon/solution.cpp) |
 | 327A | [Flipping Game](https://codeforces.com/contest/327/problem/A) | 1200 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/327/A%20-%20Flipping%20Game/solution.cpp) |
+| 414B | [Mashmokh and ACM](https://codeforces.com/contest/414/problem/B) | 1400 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/414/B%20-%20Mashmokh%20and%20ACM/solution.cpp) |
 | 431C | [k-Tree](https://codeforces.com/contest/431/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/431/C%20-%20k-Tree/solution.cpp) |
 | 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
 | 455A | [Boredom](https://codeforces.com/contest/455/problem/A) | 1500 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/455/A%20-%20Boredom/solution.cpp) |
@@ -1089,6 +1091,7 @@
 | 122A | [Lucky Division](https://codeforces.com/contest/122/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/122/A%20-%20Lucky%20Division/solution.cpp) |
 | 154B | [Colliders](https://codeforces.com/contest/154/problem/B) | 1600 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/154/B%20-%20Colliders/solution.cpp) |
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
+| 414B | [Mashmokh and ACM](https://codeforces.com/contest/414/problem/B) | 1400 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/414/B%20-%20Mashmokh%20and%20ACM/solution.cpp) |
 | 495B | [Modular Equations](https://codeforces.com/contest/495/problem/B) | 1600 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/495/B%20-%20Modular%20Equations/solution.cpp) |
 | 576A | [Vasya and Petya's Game](https://codeforces.com/contest/576/problem/A) | 1500 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/576/A%20-%20Vasya%20and%20Petya's%20Game/solution.cpp) |
 | 876B | [Divisiblity of Differences](https://codeforces.com/contest/876/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/876/B%20-%20Divisiblity%20of%20Differences/solution.cpp) |
