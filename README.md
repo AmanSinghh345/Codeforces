@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 449 | 30 |
+| 450 | 30 |
 
 ---
 
@@ -29,7 +29,7 @@
 - [geometry](#geometry) (10)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (15)
-- [greedy](#greedy) (177)
+- [greedy](#greedy) (178)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (118)
 - [interactive](#interactive) (10)
@@ -758,6 +758,7 @@
 | 2185B | [Prefix Max](https://codeforces.com/contest/2185/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2185/B%20-%20Prefix%20Max/solution.cpp) |
 | 2240A | [Another Popcount Problem](https://codeforces.com/contest/2240/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2240/A%20-%20Another%20Popcount%20Problem/solution.cpp) |
 | 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
+| 2248A | [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2248/A%20-%20You%20Delete%2C%20I%20Delete/solution.cpp) |
 | 2254C1 | [Marenol (easy version)](https://codeforces.com/contest/2254/problem/C1) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2254/C1%20-%20Marenol%20(easy%20version)/solution.cpp) |
 
 ### hashing
