@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 453 | 30 |
+| 454 | 30 |
 
 ---
 
@@ -16,12 +16,12 @@
 - [Uncategorized](#uncategorized) (6)
 - [binary search](#binary-search) (68)
 - [bitmasks](#bitmasks) (24)
-- [brute force](#brute-force) (84)
+- [brute force](#brute-force) (85)
 - [combinatorics](#combinatorics) (21)
 - [constructive algorithms](#constructive-algorithms) (74)
 - [data structures](#data-structures) (45)
 - [dfs and similar](#dfs-and-similar) (17)
-- [divide and conquer](#divide-and-conquer) (1)
+- [divide and conquer](#divide-and-conquer) (2)
 - [dp](#dp) (60)
 - [dsu](#dsu) (6)
 - [flows](#flows) (1)
@@ -32,8 +32,8 @@
 - [greedy](#greedy) (180)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (118)
-- [interactive](#interactive) (10)
-- [math](#math) (182)
+- [interactive](#interactive) (11)
+- [math](#math) (183)
 - [number theory](#number-theory) (49)
 - [shortest paths](#shortest-paths) (7)
 - [sortings](#sortings) (83)
@@ -189,6 +189,7 @@
 | 479A | [Expression](https://codeforces.com/contest/479/problem/A) | 1000 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/479/A%20-%20Expression/solution.cpp) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.cpp) |
 | 750A | [New Year and Hurry](https://codeforces.com/contest/750/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/750/A%20-%20New%20Year%20and%20Hurry/solution.cpp) |
+| 1167B | [Lost Numbers](https://codeforces.com/contest/1167/problem/B) | 1400 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1167/B%20-%20Lost%20Numbers/solution.cpp) |
 | 1380A | [Three Indices](https://codeforces.com/contest/1380/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1380/A%20-%20Three%20Indices/solution.cpp) |
 | 1389B | [Array Walk](https://codeforces.com/contest/1389/problem/B) | 1600 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1389/B%20-%20Array%20Walk/solution.cpp) |
 | 1391D | [505](https://codeforces.com/contest/1391/problem/D) | 2000 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1391/D%20-%20505/solution.cpp) |
@@ -441,6 +442,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1167B | [Lost Numbers](https://codeforces.com/contest/1167/problem/B) | 1400 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1167/B%20-%20Lost%20Numbers/solution.cpp) |
 | 1915F | [Greetings](https://codeforces.com/contest/1915/problem/F) | 1500 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1915/F%20-%20Greetings/solution.cpp) |
 
 ### dp
@@ -905,6 +907,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 679A | [Bear and Prime 100](https://codeforces.com/contest/679/problem/A) | 1400 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/679/A%20-%20Bear%20and%20Prime%20100/solution.cpp) |
+| 1167B | [Lost Numbers](https://codeforces.com/contest/1167/problem/B) | 1400 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1167/B%20-%20Lost%20Numbers/solution.cpp) |
 | 1407C | [Chocolate Bunny](https://codeforces.com/contest/1407/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1407/C%20-%20Chocolate%20Bunny/solution.cpp) |
 | 1479A | [Searching Local Minimum](https://codeforces.com/contest/1479/problem/A) | 1700 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1479/A%20-%20Searching%20Local%20Minimum/solution.cpp) |
 | 1486C1 | [Guessing the Greatest (easy version)](https://codeforces.com/contest/1486/problem/C1) | 1600 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1486/C1%20-%20Guessing%20the%20Greatest%20(easy%20version)/solution.cpp) |
@@ -940,6 +943,7 @@
 | 844B | [Rectangles](https://codeforces.com/contest/844/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/844/B%20-%20Rectangles/solution.cpp) |
 | 869C | [The Intriguing Obsession](https://codeforces.com/contest/869/problem/C) | 1800 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/869/C%20-%20The%20Intriguing%20Obsession/solution.cpp) |
 | 876B | [Divisiblity of Differences](https://codeforces.com/contest/876/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/876/B%20-%20Divisiblity%20of%20Differences/solution.cpp) |
+| 1167B | [Lost Numbers](https://codeforces.com/contest/1167/problem/B) | 1400 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1167/B%20-%20Lost%20Numbers/solution.cpp) |
 | 1201B | [Zero Array](https://codeforces.com/contest/1201/problem/B) | 1500 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1201/B%20-%20Zero%20Array/solution.cpp) |
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
 | 1320A | [Journey Planning](https://codeforces.com/contest/1320/problem/A) | 1400 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/1320/A%20-%20Journey%20Planning/solution.cpp) |
