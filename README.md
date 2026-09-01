@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 458 | 30 |
+| 459 | 30 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (6)
 - [binary search](#binary-search) (69)
 - [bitmasks](#bitmasks) (24)
-- [brute force](#brute-force) (85)
+- [brute force](#brute-force) (86)
 - [combinatorics](#combinatorics) (22)
 - [constructive algorithms](#constructive-algorithms) (74)
 - [data structures](#data-structures) (45)
@@ -38,7 +38,7 @@
 - [shortest paths](#shortest-paths) (7)
 - [sortings](#sortings) (85)
 - [string suffix structures](#string-suffix-structures) (2)
-- [strings](#strings) (47)
+- [strings](#strings) (48)
 - [ternary search](#ternary-search) (2)
 - [trees](#trees) (8)
 - [two pointers](#two-pointers) (51)
@@ -261,6 +261,7 @@
 | 2156A | [Pizza Time](https://codeforces.com/contest/2156/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2156/A%20-%20Pizza%20Time/solution.cpp) |
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.cpp) |
 | 2214J | [Special Problem](https://codeforces.com/contest/2214/problem/J) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2214/J%20-%20Special%20Problem/solution.cpp) |
+| 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.cpp) |
 
 ### combinatorics
 
@@ -1328,6 +1329,7 @@
 | 2214D | [Neural Feud](https://codeforces.com/contest/2214/problem/D) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2214/D%20-%20Neural%20Feud/solution.cpp) |
 | 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | Unrated | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2254/B%20-%20Evanescent/solution.cpp) |
+| 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/AmanSinghh345/Codeforces/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.cpp) |
 
 ### ternary search
 
